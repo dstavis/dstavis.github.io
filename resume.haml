@@ -1,0 +1,15 @@
+#header
+  .name
+    %h1 David Stavis
+    %span.tagline @tagline
+  
+  .contact
+    %p= @website
+    %p= @email
+    %p= @phone
+#experience
+  %h2 Experience
+    = @jobs.each do |job|
+     %h3= job.title
+     %span
+     =
