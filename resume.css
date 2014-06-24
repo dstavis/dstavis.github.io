@@ -21,7 +21,7 @@ body {
 
 #page-wrap {
   width: 800px;
-  margin: 40px auto 60px;
+  margin: 0px auto 0px;
 }
 
 #pic {
@@ -78,7 +78,7 @@ ul {
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 #objective {
@@ -98,15 +98,25 @@ dt {
   font-size: 1.125em;
   text-align: right;
   padding: 0 26px 0 0;
-  width: 150px;
+  width: 100px;
   float: left;
-  height: 100px;
+  /*height: 100px;*/
 }
 
 dd {
-  width: 600px;
+  width: 660px;
   float: right;
 }
+
+  dd .left{
+    float:left;
+    width: 50%;
+  }
+
+  dd .right{
+    float:right;
+    width: 50%;
+  }
 
 dd.clear {
   float: none;
