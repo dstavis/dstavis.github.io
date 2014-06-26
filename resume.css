@@ -21,7 +21,7 @@ body {
 
 #page-wrap {
   width: 800px;
-  margin: 0px auto 0px;
+  margin: 20px auto 60px;
 }
 
 #pic {
@@ -100,7 +100,7 @@ dt {
   padding: 0 26px 0 0;
   width: 100px;
   float: left;
-  /*height: 100px;*/
+  height: 100px;
 }
 
 dd {
